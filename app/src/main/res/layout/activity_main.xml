@@ -17,7 +17,7 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Nawal"
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="2dp" />
 
@@ -25,7 +25,7 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Eman"
             tools:layout_editor_absoluteX="91dp"
             tools:layout_editor_absoluteY="2dp" />
 
@@ -33,7 +33,7 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Sara"
             tools:layout_editor_absoluteX="184dp"
             tools:layout_editor_absoluteY="2dp" />
 
@@ -41,7 +41,7 @@
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Rebin"
             tools:layout_editor_absoluteX="278dp"
             tools:layout_editor_absoluteY="2dp" />
 
@@ -55,7 +55,7 @@
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Pavel"
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="50dp" />
 
@@ -63,7 +63,7 @@
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Samiha"
             tools:layout_editor_absoluteX="94dp"
             tools:layout_editor_absoluteY="50dp" />
 
@@ -71,7 +71,7 @@
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Rawand"
             tools:layout_editor_absoluteX="184dp"
             tools:layout_editor_absoluteY="50dp" />
 
@@ -79,7 +79,7 @@
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Allan"
             tools:layout_editor_absoluteX="278dp"
             tools:layout_editor_absoluteY="50dp" />
 
@@ -93,7 +93,7 @@
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Ali"
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="98dp" />
 
@@ -101,7 +101,7 @@
             android:id="@+id/button10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Mustafa"
             tools:layout_editor_absoluteX="91dp"
             tools:layout_editor_absoluteY="98dp" />
 
@@ -109,7 +109,7 @@
             android:id="@+id/button11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Hakeem"
             tools:layout_editor_absoluteX="179dp"
             tools:layout_editor_absoluteY="105dp" />
 
@@ -117,7 +117,7 @@
             android:id="@+id/button12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Shahida"
             tools:layout_editor_absoluteX="278dp"
             tools:layout_editor_absoluteY="105dp" />
 
@@ -131,7 +131,7 @@
             android:id="@+id/button13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Yousra"
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="153dp" />
 
@@ -139,7 +139,7 @@
             android:id="@+id/button14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Botan"
             tools:layout_editor_absoluteX="89dp"
             tools:layout_editor_absoluteY="153dp" />
 
@@ -147,7 +147,7 @@
             android:id="@+id/button15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Xoshnaw"
             tools:layout_editor_absoluteX="179dp"
             tools:layout_editor_absoluteY="153dp" />
 
@@ -155,7 +155,7 @@
             android:id="@+id/button16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Mohammed"
             tools:layout_editor_absoluteX="280dp"
             tools:layout_editor_absoluteY="153dp" />
 
@@ -169,7 +169,7 @@
             android:id="@+id/button17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Ahmed"
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="201dp" />
 
@@ -177,7 +177,7 @@
             android:id="@+id/button18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Miran"
             tools:layout_editor_absoluteX="89dp"
             tools:layout_editor_absoluteY="209dp" />
 
@@ -185,16 +185,9 @@
             android:id="@+id/button19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
-            tools:layout_editor_absoluteX="179dp"
-            tools:layout_editor_absoluteY="201dp" />
+            android:text="Sabri"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="209dp" />
 
-        <Button
-            android:id="@+id/button20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button"
-            tools:layout_editor_absoluteX="280dp"
-            tools:layout_editor_absoluteY="201dp" />
     </LinearLayout>
 </LinearLayout>
