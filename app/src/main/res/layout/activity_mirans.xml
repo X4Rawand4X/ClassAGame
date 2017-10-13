@@ -49,6 +49,18 @@
 
 </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place your bet!"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/getBetN"/>
     <Button
         android:id="@+id/randBtn"
         android:layout_width="wrap_content"
@@ -59,5 +71,15 @@
         android:textColor="#fff"
         android:padding="10dp"
         android:text="Generate Number" />
+
+    <TextView
+        android:id="@+id/betWon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>
