@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ClassAGame</string>
+    <string name="welcomeTxt">Welcome to this game, \n you can win adn lose also</string>
 </resources>
