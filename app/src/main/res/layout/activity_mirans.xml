@@ -9,7 +9,7 @@
     tools:context="com.example.geraltofrivia.classagame.MiransActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-smallcaps"
         android:text="@string/welcomeTxt"
@@ -48,12 +48,16 @@
         android:textSize="28sp" />
 
 </LinearLayout>
+
     <Button
         android:id="@+id/randBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
+        android:background="#881520"
+        android:textColor="#fff"
+        android:padding="10dp"
         android:text="Generate Number" />
 
 </LinearLayout>

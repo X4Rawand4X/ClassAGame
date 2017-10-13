@@ -16,10 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MiransActivity" />
-        <activity android:name="com.example.TicTaeTo.Mohammed" />
-        <activity android:name="com.example.TicTaeTo.PlayerVsPlayer" />
-        <activity android:name="com.example.TicTaeTo.PlayerVsComputer"></activity>
+        <activity android:name=".MiransActivity"></activity>
     </application>
 
 </manifest>
