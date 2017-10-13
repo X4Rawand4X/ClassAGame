@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.TicTaeTo.Mohammed;
+
 public class MainActivity extends AppCompatActivity {
 
     Button btnMiran2;
@@ -21,4 +23,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intentMiran);
     }
 ///////////////////////////////////////////////////////////////////////
+
+
+    public void btnMohammed(View view)
+    {
+        Intent intent = new Intent(this,Mohammed.class);
+        startActivity(intent);
+    }
 }

@@ -157,6 +157,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mohammed"
+            android:onClick="btnMohammed"
             tools:layout_editor_absoluteX="280dp"
             tools:layout_editor_absoluteY="153dp" />
 
