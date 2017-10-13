@@ -49,11 +49,10 @@
             android:layout_height="match_parent"
             android:layout_weight="33"
             android:orientation="horizontal">
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="wrap_content"
-                android:layout_height="52dp"
-                app:srcCompat="@drawable/pvp"
-                android:id="@+id/pvpimage" />
+                android:layout_height="80dp"
+                android:src="@drawable/pvp" />
 
 
         </LinearLayout>
@@ -70,7 +69,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/pvp"
-                android:background="@android:drawable/screen_background_dark_transparent"
+
+                android:background="#c1c1c1"
+                android:padding="8dp"
                 android:onClick="onClick"
                 />
         </LinearLayout>
@@ -101,12 +102,11 @@
             android:layout_weight="33"
 
             android:orientation="horizontal">
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="wrap_content"
-                android:layout_height="52dp"
-                app:srcCompat="@drawable/pvc"
-                android:id="@+id/imageView" />
-
+                android:layout_height="80dp"
+                android:src="@drawable/pvc"
+                />
 
         </LinearLayout>
 
@@ -121,8 +121,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/pvc"
-                android:background="@android:drawable/screen_background_dark_transparent"
                 android:onClick="onClick"
+                android:background="#c1c1c1"
+                android:padding="8dp"
+
                 />
         </LinearLayout>
 

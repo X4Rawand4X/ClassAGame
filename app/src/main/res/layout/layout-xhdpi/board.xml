@@ -49,10 +49,10 @@
             android:layout_height="match_parent"
             android:layout_weight="33"
             android:orientation="horizontal">
-            <de.hdodenhof.circleimageview.CircleImageView
+            <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="80dp"
-                android:src="@drawable/pvp"
+                android:layout_height="52dp"
+                app:srcCompat="@drawable/pvp"
                 android:id="@+id/pvpimage" />
 
 
@@ -66,13 +66,11 @@
             android:weightSum="1">
 
             <Button
-                android:background="#c1c1c1"
-                android:padding="8dp"
-
                 android:text="Player Vs Player"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/pvp"
+                android:background="@android:drawable/screen_background_dark_transparent"
                 android:onClick="onClick"
                 />
         </LinearLayout>
@@ -103,10 +101,10 @@
             android:layout_weight="33"
 
             android:orientation="horizontal">
-            <de.hdodenhof.circleimageview.CircleImageView
+            <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="80dp"
-                android:src="@drawable/pvc"
+                android:layout_height="52dp"
+                app:srcCompat="@drawable/pvc"
                 android:id="@+id/imageView" />
 
 
@@ -119,13 +117,11 @@
             android:orientation="horizontal">
 
             <Button
-                android:background="#c1c1c1"
-                android:padding="8dp"
-
                 android:text="Player Vs Computer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/pvc"
+                android:background="@android:drawable/screen_background_dark_transparent"
                 android:onClick="onClick"
                 />
         </LinearLayout>
