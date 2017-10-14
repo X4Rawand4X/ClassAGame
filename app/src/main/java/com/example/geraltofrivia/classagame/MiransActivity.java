@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Random;
 
@@ -39,17 +40,20 @@ public class MiransActivity extends AppCompatActivity {
     }
 /////////////////////////////////////////////////////////////////////////////////////////
 
+    int counter;
 
     View.OnClickListener generate = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
             switch (view.getId()){
+
                 case R.id.randBtn:
+                    if(counter < 1){
                      randomNumber1 = (randNum1.nextInt(6) +1 ) ;
                      randomNumber2 = (randNum1.nextInt(6) +1 ) ;
                     randNumberTxt.setText(String.valueOf(randomNumber1));
                     randNumberTxt2.setText(String.valueOf(randomNumber2));
-
+                    counter++;
                     betNumber =getBetN.getText().toString();
 
                     int betNumberInteger = Integer.parseInt(betNumber);
@@ -62,6 +66,13 @@ public class MiransActivity extends AppCompatActivity {
                     }else {
                         betWon.setText( "" + number2);
                     }
+                }else
+                {
+
+                  betWon.setText("");
+                   Toast.makeText(MiransActivity.this, "place your bet", Toast.LENGTH_SHORT).show();
+
+                }
             }
         }
     };
