@@ -1,11 +1,11 @@
 package com.example.geraltofrivia.classagame;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.AgeGame.Ahmad;
-import com.example.AgeGame.AhmadAgeGame;
 import com.example.TicTaeTo.Mohammed;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,5 +34,10 @@ public class MainActivity extends AppCompatActivity {
     public void btnAhmad(View view) {
         Intent ahmadIntent = new Intent(this, Ahmad.class);
         startActivity(ahmadIntent);
+    }
+
+    public void btnRebin(View view) {
+        Intent Intent = new Intent(this, GuessingGame.class);
+        startActivity(Intent);
     }
 }

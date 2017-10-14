@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.geraltofrivia.classagame">
+          package="com.example.geraltofrivia.classagame">
 
     <application
         android:allowBackup="true"
@@ -11,25 +11,16 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".MiransActivity" />
-
-        <activity android:name="com.example.AgeGame.Ahmad"></activity>
-
-        <activity android:name="com.example.AgeGame.AhmadAgeGame"></activity>
-        <activity
-            android:name="com.example.TicTaeTo.Mohammed"
-            android:label="Mohammed's AI Tic-Tac-Tao"></activity>
-        <activity
-            android:name="com.example.TicTaeTo.PlayerVsComputer"
-            android:label="Player Vs Player"></activity>
-        <activity
-            android:name="com.example.TicTaeTo.PlayerVsPlayer"
-            android:label="Player Vs Computer"></activity>
+        <activity android:name=".MiransActivity"/>
+        <activity android:name="com.example.AgeGame.Ahmad">
+        </activity>
+        <activity android:name="com.example.AgeGame.AhmadAgeGame">
+        </activity>
     </application>
 
 </manifest>

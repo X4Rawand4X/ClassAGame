@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
@@ -41,10 +42,12 @@
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:onClick="btnRebin"
             android:text="Rebin"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="278dp"
-            tools:layout_editor_absoluteY="2dp"
-            android:fontFamily="cursive"/>
+            tools:layout_editor_absoluteY="2dp" />
 
     </LinearLayout>
 
@@ -156,8 +159,8 @@
             android:id="@+id/button16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mohammed"
             android:onClick="btnMohammed"
+            android:text="Mohammed"
             tools:layout_editor_absoluteX="280dp"
             tools:layout_editor_absoluteY="153dp" />
 
