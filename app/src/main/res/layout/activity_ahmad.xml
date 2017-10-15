@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="com.example.AgeGame.Ahmad">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ahmad_question"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="serif"
+        android:text="Do you know your age by year,month and day??!!"
+        android:textColor="#f00"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="\nIf not , so click the button below"
+        android:textColor="#f00"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/go_to_ahmad_game_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="GoToPlay"
+        android:background="#D50000"
+        android:textColor="#fff"
+        android:text="---->"
+        android:textStyle="bold"/>
+
+</LinearLayout>

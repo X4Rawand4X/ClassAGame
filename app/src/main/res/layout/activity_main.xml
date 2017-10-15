@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
@@ -41,10 +42,12 @@
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:onClick="btnRebin"
             android:text="Rebin"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="278dp"
-            tools:layout_editor_absoluteY="2dp"
-            android:fontFamily="cursive"/>
+            tools:layout_editor_absoluteY="2dp" />
 
     </LinearLayout>
 
@@ -156,8 +159,8 @@
             android:id="@+id/button16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mohammed"
             android:onClick="btnMohammed"
+            android:text="Mohammed"
             tools:layout_editor_absoluteX="280dp"
             tools:layout_editor_absoluteY="153dp" />
 
@@ -171,18 +174,19 @@
             android:id="@+id/button17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="btnAhmad"
             android:text="Ahmed"
             tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="201dp" />
+            tools:layout_editor_absoluteY="201dp"/>
 
         <Button
-            android:onClick="btnMiran1"
             android:id="@+id/btnMiran2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="btnMiran1"
             android:text="Miran"
             tools:layout_editor_absoluteX="89dp"
-            tools:layout_editor_absoluteY="209dp" />
+            tools:layout_editor_absoluteY="209dp"/>
 
         <Button
             android:id="@+id/button19"
@@ -190,7 +194,7 @@
             android:layout_height="wrap_content"
             android:text="Sabri"
             tools:layout_editor_absoluteX="89dp"
-            tools:layout_editor_absoluteY="209dp" />
+            tools:layout_editor_absoluteY="209dp"/>
 
     </LinearLayout>
 </LinearLayout>

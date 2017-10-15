@@ -16,7 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MiransActivity"></activity>
+        <activity android:name=".MiransActivity" />
+        <activity android:name="com.example.AgeGame.Ahmad"></activity>
+        <activity android:name="com.example.AgeGame.AhmadAgeGame"></activity>
+        <activity
+            android:name="com.example.TicTaeTo.PlayerVsPlayer"
+            android:label="Player Vs Player" />
+        <activity
+            android:name="com.example.TicTaeTo.PlayerVsComputer"
+            android:label="Player Vs Computer" />
+        <activity
+            android:name="com.example.TicTaeTo.Mohammed"
+            android:label="Mohammed's AI Tic-Tac-TOe" />
     </application>
 
 </manifest>
