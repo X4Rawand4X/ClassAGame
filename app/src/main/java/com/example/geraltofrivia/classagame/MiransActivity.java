@@ -69,10 +69,8 @@ public class MiransActivity extends AppCompatActivity {
 
                 }else
                 {
-
                   betWon.setText("");
                    Toast.makeText(MiransActivity.this, "place your bet again ", Toast.LENGTH_SHORT).show();
-
                 }
             }
         }
